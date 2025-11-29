@@ -2,12 +2,12 @@ package Alura.Java.Modelos;
 
 public class Produtos {
     private String nomeDoProduto;
-    private double quantidadeDoProduto;
+    private int quantidadeDoProduto;
     private Double precoDoProduto;
 
 
 
-    public Produtos(String nomeDoProduto, double quantidadeDoProduto, Double precoDoProduto) {
+    public Produtos(String nomeDoProduto, int quantidadeDoProduto, double precoDoProduto) {
         this.nomeDoProduto = nomeDoProduto;
         this.quantidadeDoProduto = quantidadeDoProduto;
         this.precoDoProduto = precoDoProduto;
