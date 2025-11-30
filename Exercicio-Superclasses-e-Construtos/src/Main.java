@@ -9,6 +9,6 @@ static void main(String[] args) {
     Produtos produto_cod_02 = new Produtos("Lavitan A-Z", 5, 38.28);
     Produtos produto_cod_03 = new Produtos("Absorvente Intimus c/ abas duplas", 5, 9.98);
 
-    listaProdutos.add
+    listaProdutos.add(produto_cod_01);
 }
 
