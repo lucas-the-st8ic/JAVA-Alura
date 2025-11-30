@@ -25,7 +25,7 @@ public class Produtos {
         return quantidadeDoProduto;
     }
 
-    public void setQuantidadeDoProduto(double quantidadeDoProduto) {
+    public void setQuantidadeDoProduto(int quantidadeDoProduto) {
         this.quantidadeDoProduto = quantidadeDoProduto;
     }
 
@@ -39,6 +39,6 @@ public class Produtos {
 
     @Override
     public String toString() {
-        return "Produto: " + nomeDoProduto + "\nPreço: R$" + precoDoProduto + "\nQuantidade: " + quantidadeDoProduto;
+        return "Produto: " + nomeDoProduto + "\nPreço: R$" + precoDoProduto + "\nQuantidade: " + quantidadeDoProduto + "\n";
     }
 }

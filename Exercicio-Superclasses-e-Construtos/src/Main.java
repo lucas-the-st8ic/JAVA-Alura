@@ -10,5 +10,11 @@ static void main(String[] args) {
     Produtos produto_cod_03 = new Produtos("Absorvente Intimus c/ abas duplas", 5, 9.98);
 
     listaProdutos.add(produto_cod_01);
+    listaProdutos.add(produto_cod_02);
+    listaProdutos.add(produto_cod_03);
+
+    System.out.println(listaProdutos);
+
+    System.out.println(listaProdutos.get(0).toString());
 }
 
