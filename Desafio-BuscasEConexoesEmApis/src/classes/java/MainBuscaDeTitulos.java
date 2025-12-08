@@ -16,7 +16,8 @@ public class MainBuscaDeTitulos {
         var buscaDeTitulos = input.nextLine();
         buscaDeTitulos = buscaDeTitulos.replace(" ", "+");
 
-        String endereco = "https://www.googleapis.com/books/v1/volumes?q=intitle:" +buscaDeTitulos+ "&key=AIzaSyBllZ9OLtQj7vU79hybOgEnzg8_X1trA5A";
+        String chave = "AIzaSyBllZ9OLtQj7vU79hybOgEnzg8_X1trA5A";
+        String endereco = "https://www.googleapis.com/books/v1/volumes?q=intitle:" +buscaDeTitulos+ "&key=" +chave;
 
 
         HttpClient client = HttpClient.newHttpClient();
