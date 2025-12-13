@@ -10,9 +10,7 @@ public class Main {
         System.out.println("Insira um CEP para busca:");
         var cep = input.nextLine();
 
-
-
-
+        
         try {
             Endereco enderecoPesquisa = pesquisaCep.pesquisaEndereco(cep);
             System.out.println(enderecoPesquisa);
