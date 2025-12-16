@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays-CollectionsSort/Arrays-CollectionsSort.iml" filepath="$PROJECT_DIR$/Arrays-CollectionsSort/Arrays-CollectionsSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataEHoraJava/DataEHoraJava.iml" filepath="$PROJECT_DIR$/DataEHoraJava/DataEHoraJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio-BuscasEConexoesEmApis/Desafio-BuscasEConexoesEmApis.iml" filepath="$PROJECT_DIR$/Desafio-BuscasEConexoesEmApis/Desafio-BuscasEConexoesEmApis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio-MenuDeCompras/Desafio-MenuDeCompras.iml" filepath="$PROJECT_DIR$/Desafio-MenuDeCompras/Desafio-MenuDeCompras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioBuscaPorCep/DesafioBuscaPorCep.iml" filepath="$PROJECT_DIR$/DesafioBuscaPorCep/DesafioBuscaPorCep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excecao-De-Classes/Excecao-De-Classes.iml" filepath="$PROJECT_DIR$/Excecao-De-Classes/Excecao-De-Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio-Arrays/Exercicio-Arrays.iml" filepath="$PROJECT_DIR$/Exercicio-Arrays/Exercicio-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio-Superclasses-e-Construtos/Exercicio-Superclasses-e-Construtos.iml" filepath="$PROJECT_DIR$/Exercicio-Superclasses-e-Construtos/Exercicio-Superclasses-e-Construtos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-alura.iml" filepath="$PROJECT_DIR$/.idea/java-alura.iml" />
+    </modules>
+  </component>
+</project>
