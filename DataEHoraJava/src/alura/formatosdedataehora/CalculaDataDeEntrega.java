@@ -14,13 +14,13 @@ public class CalculaDataDeEntrega {
         LocalDate dataDeInicio;
         int prazoEmDias;
         LocalDate dataDeEntrega;
-        String dataOuHora;
+        String data;
 
 
         System.out.print("Digite a data de inicio do Projeto (dd/MM/yyyy):");
-        dataOuHora = entrada.nextLine();
+        data = entrada.nextLine();
 
-        dataDeInicio = LocalDate.parse(dataOuHora, formatacaoData);
+        dataDeInicio = LocalDate.parse(data, formatacaoData);
 
 
 
