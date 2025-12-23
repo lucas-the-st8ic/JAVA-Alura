@@ -6,5 +6,7 @@ public class Livro {
     int paginas;
     String categoria;
 
-    public void exibirInformacoesLivro
+    public void exibirInformacoesLivro() {
+        
+    }
 }
