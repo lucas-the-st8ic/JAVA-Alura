@@ -7,6 +7,6 @@ public class Livro {
     String categoria;
 
     public void exibirInformacoesLivro() {
-        
+
     }
 }
