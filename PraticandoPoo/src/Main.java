@@ -1,4 +1,5 @@
-package br.com.Alura;
+import br.com.Alura.Funcionario;
+import br.com.Alura.Produto;
 
 public class Main {
     static void main(String[] args) {
@@ -22,5 +23,13 @@ public class Main {
         funcionario_02.reajustarSalario(5);
 
         funcionario_02.exibirInformacoesFuncionario();
+
+        Produto produto_01 = new Produto();
+        produto_01.nomeProduto = "Mouse Gamer";
+        produto_01.precoProduto = 451.90;
+        produto_01.quantidadeProduto = 50;
+
+        produto_01.exibirProduto();
+        System.out.println("Ele disse: \"Olá, Mundo!\"");
     }
 }

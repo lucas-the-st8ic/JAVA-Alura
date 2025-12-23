@@ -2,9 +2,9 @@ package br.com.Alura;
 
 public class Funcionario {
 
-    String nome;
-    String cargo;
-    double salario;
+    public String nome;
+    public String cargo;
+    public double salario;
 
 
     public void exibirInformacoesFuncionario() {
