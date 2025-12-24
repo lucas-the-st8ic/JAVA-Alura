@@ -1,7 +1,4 @@
-import br.com.Alura.Conta;
-import br.com.Alura.Funcionario;
-import br.com.Alura.Livro;
-import br.com.Alura.Produto;
+import br.com.Alura.*;
 
 public class Main {
     static void main(String[] args) {
@@ -41,13 +38,19 @@ public class Main {
 
         livro_cod001.exibirInformacoesLivro();*/
 
-        Conta contaNum_478 = new Conta();
+        /*Conta contaNum_478 = new Conta();
         contaNum_478.saldo = 1579.42;
 
         contaNum_478.exibirOSaldo();
 
         contaNum_478.zerarOSaldo();
 
-        contaNum_478.exibirOSaldo();
+        contaNum_478.exibirOSaldo();*/
+
+        SensorTemperatura novaAfericao = new SensorTemperatura();
+        novaAfericao.local = "Setor A";
+        novaAfericao.temperatura = 37;
+
+        novaAfericao.exibirRelatorio();
     }
 }
