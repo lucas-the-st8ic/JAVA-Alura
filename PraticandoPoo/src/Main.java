@@ -1,5 +1,7 @@
 import br.com.Alura.*;
 
+import java.util.ArrayList;
+
 public class Main {
     static void main(String[] args) {
 
@@ -60,13 +62,28 @@ public class Main {
 
         aluno_01.calcularMedia();*/
 
-
-        Funcionario funcionario_03 = new Funcionario();
+        /*Funcionario funcionario_03 = new Funcionario();
         funcionario_03.nome = "Júlia Oliveira";
         funcionario_03.cargoAtual = "Pessoa Desenvolvedora Júnior";
         funcionario_03.nivelDeAcessoAtual = 1;
 
+        funcionario_03.alterarSetorAcesso("Pessoa Desenvolvedora Pleno", 3);*/
 
-        funcionario_03.alterarSetorAcesso("Pessoa Desenvolvedora Pleno", 3);
+
+        ArrayList<Tarefa> listaDeTarefas = new ArrayList<>();
+
+        Tarefa tarefa_01 = new Tarefa();
+        tarefa_01.preencherDados();
+        listaDeTarefas.add(tarefa_01);
+
+        Tarefa tarefa_02 = new Tarefa();
+        tarefa_02.preencherDados();
+        listaDeTarefas.add(tarefa_02);
+
+        for(Tarefa t : listaDeTarefas) {
+            System.out.println(t);
+        }
+
+
     }
 }
