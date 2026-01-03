@@ -2,23 +2,50 @@ package br.com.Alura;
 
 public class Funcionario {
 
-    public String nome;
-    public double salario;
-    public String cargoAtual;
+    private String nome;
+    private double salario;
+    private String cargoAtual;
     public int nivelDeAcessoAtual;
 
+    private int controleDeReajuste = 0;
 
+    public Funcionario(String nome, double salario) {
+        this.nome = nome;
+        this.salario = salario;
+    }
+
+    public String getCargoAtual() {
+        return cargoAtual;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setCargoAtual(String cargoAtual) {
+        this.cargoAtual = cargoAtual;
+    }
 
     public void exibirInformacoesFuncionario() {
-        System.out.printf("Funcionário: %s - Cargo: %s - Salário %.2f\n", nome, cargoAtual, salario);
+        System.out.printf("Funcionário: %s \n Cargo: %s \n Salário %.2f\n", nome, cargoAtual, salario);
     }
 
     public void reajustarSalario (double percentual) {
-        salario += salario * (percentual / 100);
-        System.out.printf("Novo salario de %s é %.2f \n", nome, salario);
+        if (controleDeReajuste >= 1) {
+            System.out.println("Não pode ser mais reajustado");
+        } else {
+            controleDeReajuste++;
+            salario += salario * (percentual / 100);
+            System.out.printf("Novo salario de %s é %.2f \n", nome, salario);
+        }
+
     }
 
-    public void alterarSetorAcesso (String cargoNovo, int nivelDeAcessoNovo ) {
+    public void alterarCargoAcesso(String cargoNovo, int nivelDeAcessoNovo ) {
 
 
 

@@ -6,17 +6,15 @@ import java.util.List;
 public class Main {
     static void main(String[] args) {
 
-/*      Funcionario funcionario_01 = new Funcionario();
+        Funcionario funcionario_01 = new Funcionario("João", 8500);
+        funcionario_01.setCargoAtual("Engenheiro de Software Sênior");
 
-        funcionario_01.nome = "Lucas";
-        funcionario_01.cargoAtual = "Engenheiro de Software Sênior";
-        funcionario_01.salario = 15539;
+        Funcionario funcionario_02 = new Funcionario("Matheus", 10879);
+        funcionario_02.setCargoAtual("Gerente de Projetos");
 
-        Funcionario funcionario_02 = new Funcionario();
+        System.out.println("Funcionário " +funcionario_01.getNome()+ " tem o cargo de: " +funcionario_01.getCargoAtual());
 
-        funcionario_02.nome = "Matheus";
-        funcionario_02.cargoAtual = "Gerente de Projetos";
-        funcionario_02.salario = 10879;
+        System.out.println("Funcionário " +funcionario_02.getNome()+ " tem o cargo de: " +funcionario_02.getCargoAtual());
 
         funcionario_01.exibirInformacoesFuncionario();
 
@@ -24,12 +22,16 @@ public class Main {
 
         funcionario_02.reajustarSalario(5);
 
-        funcionario_02.exibirInformacoesFuncionario();*/
+        funcionario_02.exibirInformacoesFuncionario();
 
-        Produto produto01 = new Produto();
+        funcionario_02.reajustarSalario(10);
+
+        funcionario_02.exibirInformacoesFuncionario();
+
+    /*    Produto produto01 = new Produto();
         produto01.nomeProduto = "Mouse Gamer";
         produto01.precoProduto = 100.00;
-        produto01.quantidadeProduto = 50;
+        produto01.quantidadeProduto = 50;*/
 
     /*  produto01.exibirProduto();
         System.out.println("Ele disse: \"Olá, Mundo!\"");*/
@@ -92,7 +94,7 @@ public class Main {
 
         livro_cod001.exibirMultaPorAtraso();*/
 
-        List<Produto> carrinhoDeCompras = new ArrayList<>();
+    /*    List<Produto> carrinhoDeCompras = new ArrayList<>();
 
 
         Produto produto02 = new Produto();
@@ -127,7 +129,7 @@ public class Main {
                 totalCarrinho += item.calcularProduto();
         }
 
-        System.out.printf("Total da compra: R$ %.2f\n", totalCarrinho);
+        System.out.printf("Total da compra: R$ %.2f\n", totalCarrinho);*/
 
     }
 }
