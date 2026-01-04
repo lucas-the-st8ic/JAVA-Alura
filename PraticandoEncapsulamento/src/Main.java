@@ -1,6 +1,7 @@
 import br.com.alura.encapsulamento.Carro;
 import br.com.alura.encapsulamento.Contato;
 import br.com.alura.encapsulamento.Produto;
+import br.com.alura.encapsulamento.Usuario;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -14,7 +15,7 @@ public class Main {
 
         System.out.println("Modelo do veiculo: " +carro001.getModelo());*/
 
-        ArrayList<Contato> listaDeContatos = new ArrayList<>();
+        /*ArrayList<Contato> listaDeContatos = new ArrayList<>();
 
         listaDeContatos.add(new Contato("João Silva", "(11) 99999-7841" ));
         listaDeContatos.add(new Contato("Luana Santos", "(21) 87456-7846"));
@@ -27,13 +28,20 @@ public class Main {
             System.out.printf("%d. %s - %s\n",
                     indice++, contato.getNome(),
                     contato.getTelefone());
-        }
+        }*/
 
 
-        Produto produto001 = new Produto();
+        /*Produto produto001 = new Produto();
         produto001.setNomeProduto("Mouse bluetooth gamer");
         produto001.setValorProduto(-59.90);
 
-        System.out.printf("Produto: %s \nPreço: %.2f\n", produto001.getNomeProduto(), produto001.getValorProduto());
+        System.out.printf("Produto: %s \nPreço: %.2f\n", produto001.getNomeProduto(), produto001.getValorProduto());*/
+
+        Usuario newUser = new Usuario("lucas.ss", "246810");
+
+        newUser.setSenha("246812", "abc123");
+
+        newUser.setSenha("246810", "abc123");
     }
+
 }
