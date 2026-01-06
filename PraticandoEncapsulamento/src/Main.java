@@ -1,7 +1,4 @@
-import br.com.alura.encapsulamento.Carro;
-import br.com.alura.encapsulamento.Contato;
-import br.com.alura.encapsulamento.Produto;
-import br.com.alura.encapsulamento.Usuario;
+import br.com.alura.encapsulamento.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -37,11 +34,16 @@ public class Main {
 
         System.out.printf("Produto: %s \nPreço: %.2f\n", produto001.getNomeProduto(), produto001.getValorProduto());*/
 
-        Usuario newUser = new Usuario("lucas.ss", "246810");
+       /* Usuario newUser = new Usuario("lucas.ss", "246810");
 
         newUser.setSenha("246812", "abc123");
 
-        newUser.setSenha("246810", "abc123");
+        newUser.setSenha("246810", "abc123");*/
+
+        Bateria bateriaNova = new Bateria();
+
+        bateriaNova.setNivelBateria(20);
+        System.out.println("Status: " + bateriaNova.exibeNivelBateria());
     }
 
 }
