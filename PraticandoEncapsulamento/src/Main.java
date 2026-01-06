@@ -44,6 +44,14 @@ public class Main {
 
         bateriaNova.setNivelBateria(20);
         System.out.println("Status: " + bateriaNova.exibeNivelBateria());
+
+        Conta novaConta = new Conta("Ana");
+        novaConta.depositar(1000);
+        novaConta.sacar(1500);
+        novaConta.sacar(200);
+        novaConta.exibirSaldo();
+
     }
+
 
 }
