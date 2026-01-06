@@ -23,8 +23,8 @@ public class Main {
         int indice = 1;
         for(Contato contato : listaDeContatos) {
             System.out.printf("%d. %s - %s\n",
-                    indice++, contato.getNome(),
-                    contato.getTelefone());
+                indice++, contato.getNome(),
+                contato.getTelefone());
         }*/
 
 
