@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Main {
     static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-
-/*        Carro carro001 = new Carro("Gol", "ABC-1234", 2020);
+/*      Carro carro001 = new Carro("Gol", "ABC-1234", 2020);
         carro001.exibirInformacoesVeiculo();
 
         System.out.println("Modelo do veiculo: " +carro001.getModelo());*/
@@ -54,7 +54,7 @@ public class Main {
         novaConta.sacar(800);
         novaConta.exibirSaldo();*/
 
-        Filme matrix = new Filme("Matrix");
+    /*    Filme matrix = new Filme("Matrix");
         matrix.adicionarAvaliacao(5);
         matrix.adicionarAvaliacao(4);
         matrix.adicionarAvaliacao(5);
@@ -63,7 +63,34 @@ public class Main {
         matrix.adicionarAvaliacao(7);
         matrix.adicionarAvaliacao(2);
 
-        System.out.printf("Média de avaliações para %s: %.2f\n", matrix.getTitulo(), matrix.calcularMedia());
+        System.out.printf("Média de avaliações para %s: %.2f\n", matrix.getTitulo(), matrix.calcularMedia());*/
+
+        LoginAluno aluno = new LoginAluno("Aluno@2025", "Escola@123456");
+
+        int tentativas = 3;
+
+
+        while(tentativas > 0) {
+            System.out.print("Digite seu login: \n");
+            String usuario = input.nextLine();
+
+            System.out.print("Digite sua senha: \n");
+            String senha = input.nextLine();
+
+            if (aluno.validarSenha(usuario, senha)) {
+                System.out.println("Senha correta!!");
+                System.out.println("Seja bem vindo!!");
+                break;
+            } else {
+                tentativas--;
+
+                if (tentativas == 0) {
+                    System.out.println("Acesso Bloqueado. Contate o administrador");
+                } else {
+                    System.out.println("Credenciais inválidas. Tentativas restantes " +tentativas);
+                }
+            }
+        }
 
     }
 }
