@@ -65,7 +65,7 @@ public class Main {
 
         System.out.printf("Média de avaliações para %s: %.2f\n", matrix.getTitulo(), matrix.calcularMedia());*/
 
-        LoginAluno aluno = new LoginAluno("Aluno@2025", "Escola@123456");
+    /*    LoginAluno aluno = new LoginAluno("Aluno@2025", "Escola@123456");
 
         int tentativas = 3;
 
@@ -90,7 +90,15 @@ public class Main {
                     System.out.println("Credenciais inválidas. Tentativas restantes " +tentativas);
                 }
             }
-        }
+        }*/
 
+
+
+        Aluno fernanda = new Aluno("Fernanda");
+        fernanda.ganharPontos(99);
+        fernanda.exibirStatus();
+        fernanda.ganharPontos(1);
+        fernanda.ganharPontos(99);
+        fernanda.exibirStatus();
     }
 }
