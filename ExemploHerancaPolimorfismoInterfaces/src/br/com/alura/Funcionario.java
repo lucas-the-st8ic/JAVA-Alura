@@ -2,8 +2,8 @@ package br.com.alura;
 
 public class Funcionario {
 
-    private String nome;
-    private double salario;
+    protected String nome;
+    protected double salario;
 
     public Funcionario(String nome, double salario) {
         this.nome = nome;
@@ -16,6 +16,11 @@ public class Funcionario {
 
     public void reajustarSalario(double percentual) {
         salario += salario * (percentual / 100);
-        System.out.printf("\nNovo salário de %s é R$%.2f ", nome, salario);
+        System.out.printf("\nNovo salário de %s é R$%.2f \n", nome, salario);
+    }
+
+    public void reajustarSalario() {
+        salario += 500;
+        System.out.printf("\nSalário com dissídio de %s é R$%.2f \n", nome, salario);
     }
 }

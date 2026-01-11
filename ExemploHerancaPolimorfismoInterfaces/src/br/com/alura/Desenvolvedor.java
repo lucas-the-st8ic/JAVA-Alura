@@ -10,4 +10,8 @@ public class Desenvolvedor extends Funcionario {
     }
 
 
+    @Override
+    public void exibirInformacoes() {
+        System.out.printf("Desenvolvedor: %s\nSalário: R$%.2f\nStack: %s", nome, salario, stack);
+    }
 }
