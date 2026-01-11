@@ -8,4 +8,6 @@ public class Desenvolvedor extends Funcionario {
         super(nome, salario);
         this.stack = stack;
     }
+
+
 }
