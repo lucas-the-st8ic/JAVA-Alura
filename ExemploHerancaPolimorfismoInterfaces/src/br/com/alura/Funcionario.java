@@ -24,5 +24,5 @@ public abstract class Funcionario {
         System.out.printf("\nSalário com dissídio de %s é R$%.2f \n", nome, salario);
     }
 
-    
+
 }
