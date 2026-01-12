@@ -20,4 +20,8 @@ void main(String[] args) {
 
     dev001.reajustarSalario();
     dev001.exibirInformacoes();
+
+    Funcionario analistaRH = new Funcionario("Lucio", 20578.90);
+
+
 }

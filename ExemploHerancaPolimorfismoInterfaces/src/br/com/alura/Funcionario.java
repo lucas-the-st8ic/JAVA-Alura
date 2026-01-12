@@ -1,6 +1,6 @@
 package br.com.alura;
 
-public class Funcionario {
+public abstract class Funcionario {
 
     protected String nome;
     protected double salario;
@@ -23,4 +23,6 @@ public class Funcionario {
         salario += 500;
         System.out.printf("\nSalário com dissídio de %s é R$%.2f \n", nome, salario);
     }
+
+    
 }
