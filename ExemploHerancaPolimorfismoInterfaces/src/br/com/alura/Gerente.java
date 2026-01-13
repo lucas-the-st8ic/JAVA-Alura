@@ -1,6 +1,6 @@
 package br.com.alura;
 
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Aprovador {
 
     private double bonus;
 
@@ -19,5 +19,16 @@ public class Gerente extends Funcionario {
     @Override
     public void exibirInformacoes() {
         System.out.printf("\n\nGerente: %s\nSalário: R$%.2f\nBônus: R$%.2f\n\n", super.nome, super.salario, bonus);
+    }
+
+    @Override
+    public void calcularPLR() {
+        System.out.println("PLR do gerente");
+    }
+
+    @Override
+    public void aprovarProjeto(String nomeProjeto) {
+        System.out.printf("\nGerente %s aprovou o projeto %s",
+                nome, nomeProjeto);
     }
 }
