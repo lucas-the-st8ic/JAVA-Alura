@@ -1,9 +1,9 @@
 package br.com.Alura;
 
-public class CartãoDeCredito extends Pagamento{
+public class CartaoDeCredito extends Pagamento{
 
 
-    public CartãoDeCredito(double valor) {
+    public CartaoDeCredito(double valor) {
         super(valor);
     }
 

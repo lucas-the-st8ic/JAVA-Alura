@@ -7,8 +7,11 @@ public class Pagamento {
         this.valor = valor;
     }
 
+    public Pagamento() {
+    }
+
     public void confirmarPagamento() {
-         System.out.printf("Pagamento de R$%.2f confirmado\n", valor);
+        System.out.printf("Pagamento de R$%.2f confirmado\n", valor);
      };
 
      public double calcularTaxa() {
