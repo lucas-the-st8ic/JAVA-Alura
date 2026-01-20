@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ExemploStringsERegex.iml" filepath="$PROJECT_DIR$/.idea/ExemploStringsERegex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemovendoEspacosEmBranco.iml" filepath="$PROJECT_DIR$/RemovendoEspacosEmBranco.iml" />
     </modules>
   </component>
 </project>
