@@ -12,6 +12,6 @@ public class Main {
 
         System.out.println("A segunda pessoa da lista é " +funcionarios.get(1));
         System.out.println("Total de funcionários: " + funcionarios.size());
-        
+
     }
 }
