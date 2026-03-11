@@ -1,11 +1,17 @@
 package br.com.Alura.TabelaFipe.service;
+import tools.jackson.core.JacksonException;
+import tools.jackson.databind.ObjectMapper;
 
 public class ConverteDados implements IConverteDados {
 
-   private();
+    private ObjectMapper mapper = new ObjectMapper();
 
     @Override
     public <T> T obterDados(String json, Class<T> classe) {
-        return null;
+        try {
+            return mapper.readValue(json, classe);
+        } catch (JacksonException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
